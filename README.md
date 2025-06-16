@@ -1,21 +1,26 @@
-# Introduction to Reproducibility with Python Workshop
+# Introduction to Reproducibility with Python/R
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![R 4.0+](https://img.shields.io/badge/R-4.0+-blue.svg)](https://cran.r-project.org/)
 [![Open Science](https://img.shields.io/badge/Open-Science-brightgreen.svg)](https://www.fosteropenscience.eu)
 
 
 <img src="https://library.maastrichtuniversity.nl/wp-content/uploads/Python-workshop-RDM-1.png" style="width: 50%; height: auto;">
 
-This repository contains all materials for the [Introduction to Reproducibility with Python](https://library.maastrichtuniversity.nl/course/introduction-to-reproducibility-with-python/) workshop. This workshop covers practical exercises and examples, including things like automation of data processing, creating modules/packages and publish data using Python.
+This repository contains all materials for the [Introduction to Reproducibility with Pytho/R](https://library.maastrichtuniversity.nl/course/introduction-to-reproducibility-with-python-and-r/) workshop. You can choose to work in either Python or R, with dedicated folders for each:
+
+* [`python-workshop/`](python-workshop): All Python notebooks and scripts.
+* [`r-workshop/`](r-workshop): All R scripts and examples.
 
 ## Workshop Objectives
 
 - Understand the basic concepts of research reproducibility.
 - Apply best practices for reproducible workflows.
-- Use pyDataverse to connect to DataverseNL API and automate data uploads.
+- Automate data processing and analysis in Python and R.
+- Connect to DataverseNL via API to programmatically download and upload data.
 
-## Notebooks
+## Some Notebooks
 1. [**Python Building Blocks**](https://nbviewer.jupyter.org/github/MaastrichtU-Library/introduction-to-reproducibility-with-python/blob/main/notebooks/1-Python-Building-Blocks.ipynb)
 2. [**Reproducible Analysis**](https://nbviewer.jupyter.org/github/MaastrichtU-Library/introduction-to-reproducibility-with-python/blob/main/notebooks/2-Reproducible-Analysis.ipynb)
 3. [**Working with pyDataverse**](https://nbviewer.jupyter.org/github/MaastrichtU-Library/introduction-to-reproducibility-with-python/blob/main/notebooks/3-Working-with-Dataverse.ipynb)
@@ -25,6 +30,7 @@ This repository contains all materials for the [Introduction to Reproducibility 
 ## Requirements
 
 - **Python**:  Python 3.6+.
+* **R**: R 4.0+ with RStudio (optional).
 - **Jupyter**: Jupyter Notebook, JupyterLab or Google Colab.
 - **pyDataverse:** [Docs - Release v0.3.1.](https://pydataverse.readthedocs.io/en/latest/)
 - **DSRI Account:** [Register here](https://dsri.maastrichtuniversity.nl/register/) *(Only available to Maastricht University scholars)*

@@ -1,5 +1,8 @@
 # Example 1
 
+if (!require(broom))   install.packages("broom")
+if (!require(writexl)) install.packages("writexl")
+
 library(broom)
 library(writexl)
 
